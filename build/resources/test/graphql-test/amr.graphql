@@ -1,0 +1,9 @@
+query {
+    amrById(amrId: 1) {
+        amrId
+        payload {
+            payloadId
+            payloadName
+        }
+    }
+}

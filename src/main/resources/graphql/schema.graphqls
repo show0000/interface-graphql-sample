@@ -1,0 +1,26 @@
+type Query {
+    amrs: [Amr]
+    amrById(amrId: Int!): Amr
+}
+
+type Mutation {
+    addAmr(amr: AmrInput): Amr
+}
+
+type Amr {
+    amrId: Int!
+    amrAlias: String!
+    amrName: String!
+    payload: Payload
+}
+
+type Payload {
+    payloadId: Int!
+    payloadName: String!
+    payloadType: String!
+    usage: Int!
+}
+
+input AmrInput {
+    amrName: String!
+}

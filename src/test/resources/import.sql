@@ -1,0 +1,10 @@
+INSERT INTO payload (payload_id, payload_name, payload_type, usage) VALUES (1, 'SmallPallet1', 'S', 1);
+INSERT INTO payload (payload_id, payload_name, payload_type, usage) VALUES (2, 'SmallPallet2', 'S', 1);
+INSERT INTO payload (payload_id, payload_name, payload_type, usage) VALUES (3, 'MiddlePallet1', 'M', 2);
+INSERT INTO payload (payload_id, payload_name, payload_type, usage) VALUES (4, 'MiddlePallet2', 'M', 3);
+INSERT INTO payload (payload_id, payload_name, payload_type, usage) VALUES (5, 'BigPallet1', 'B', 5);
+INSERT INTO amr (amr_id, amr_name, payload_id) VALUES (1, 'Amr1', 1);
+INSERT INTO amr (amr_id, amr_name, payload_id) VALUES (2, 'Amr2', 2);
+INSERT INTO amr (amr_id, amr_name, payload_id) VALUES (3, 'Amr3', 3);
+INSERT INTO amr (amr_id, amr_name, payload_id) VALUES (4, 'Amr4', 4);
+INSERT INTO amr (amr_id, amr_name, payload_id) VALUES (5, 'Amr5', 5);
